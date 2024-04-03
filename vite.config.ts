@@ -18,7 +18,7 @@ export default defineConfig(({ mode }: ConfigEnv): UserConfig => {
   const env = loadEnv(mode, process.cwd());
   return {
     // 配置打包后的相对路径
-    base: "./",
+    base: "/vue3Template/",
     //配置别名
     resolve: {
       // 需要在tsconfig.json的compilerOptions中配置paths

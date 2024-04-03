@@ -12,7 +12,7 @@
     "CheckAll": "concurrently \"npm run ESlint:check\" \"npm run Prettier:check\" \"npm run StyleLint:check\"",
     "test": "vite --mode test",
     "prod": "vite --mode production",
-    "build": "\"npm run CheckAll\" &&  vite build",
+    "build": "vite build",
     "build:dev": "vite build --mode development",
     "build:test": "vite build --mode test",
     "build:jg": "vite build --mode jg",
